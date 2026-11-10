@@ -1,0 +1,15 @@
+[submodule "vendor/lightweight-charts"]
+	path = vendor/lightweight-charts
+	url = https://github.com/tradingview/lightweight-charts.git
+[submodule "vendor/revolut-x-api"]
+	path = vendor/revolut-x-api
+	url = https://github.com/revolut-engineering/revolut-x-api.git
+[submodule "vendor/ut-bot-reference/Ut_bot_ADV_Strategy"]
+	path = vendor/ut-bot-reference/Ut_bot_ADV_Strategy
+	url = https://github.com/Aksee123/Ut_bot_ADV_Strategy.git
+[submodule "vendor/ut-bot-reference/ut_bot"]
+	path = vendor/ut-bot-reference/ut_bot
+	url = https://github.com/pinarocko346-creator/ut_bot.git
+[submodule "vendor/supertrend-reference"]
+	path = vendor/supertrend-reference
+	url = https://github.com/sadratech/SuperTrend-Indicator.git

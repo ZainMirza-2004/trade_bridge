@@ -1,0 +1,32 @@
+# Credentials — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+private*.pem
+secrets/
+keys/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+*.db
+*.sqlite
+
+# Node
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.log

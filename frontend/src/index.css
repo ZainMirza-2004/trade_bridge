@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+html, body, #root { height: 100%; }
+body { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; }
+.num { font-variant-numeric: tabular-nums; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+.panel { background: #11151f; border: 1px solid #1e2533; border-radius: 6px; }
+.btn { padding: 4px 10px; border-radius: 4px; border: 1px solid #2a3344; background: #1a2030; font-weight: 500; }
+.btn:hover:not(:disabled) { background: #232b3e; }
+.btn:disabled { opacity: .45; cursor: not-allowed; }
+.input { background: #0b0e14; border: 1px solid #2a3344; border-radius: 4px; padding: 3px 6px; width: 100%; }
+.label { color: #7d8799; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
